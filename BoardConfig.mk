@@ -16,6 +16,7 @@ TARGET_OTA_ASSERT_DEVICE := dipper
 TARGET_FACE_UNLOCK_CAMERA_ID := 5
 
 # Kernel
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := dipper_defconfig
 
 # NFC
